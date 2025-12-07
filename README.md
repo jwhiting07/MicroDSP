@@ -24,12 +24,12 @@ New micro-projects will be added regularly as GhostWire Audio grows.
 ---
 
 ## How to Run a Project
-
+Navigate to the desired directory
 ```bash
-git clone https://github.com/<yourname>/GhostWire-MicroDSP.git
-cd GhostWire-MicroDSP/<ProjectName>
-g++ main.cpp -o demo
-./demo
+git clone https://github.com/jwhiting07/MicroDSP.git
+cd MicroDSP
+g++ file_name.cpp -o executable_name
+./executable_name
 ```
 
 A standard C++17 compiler is all you need for most projects.

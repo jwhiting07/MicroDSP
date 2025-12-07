@@ -8,7 +8,7 @@ A collection of tiny, beginner-friendly DSP projects created as part of my socia
 
 Each project has:
 
-- A fully commented `main.cpp`
+- A fully commented `project_name.cpp`
 - Optional example audio or diagrams
 
 Topics include:

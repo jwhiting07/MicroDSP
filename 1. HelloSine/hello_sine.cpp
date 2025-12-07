@@ -1,4 +1,6 @@
 /*
+    Project 1: Hello Sine
+    
     This program demonstrates how to generate a pure 440 Hz sine wave and write it as a valid
     PCM WAV file entirely from scratch in C++. Rather than relying on audio libraries, this code
     manually constructs the 44-byte WAV header, calculates all required RIFF/WAVE fields

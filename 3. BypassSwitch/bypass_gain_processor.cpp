@@ -1,4 +1,6 @@
 /*
+    Project 3: Bypass Gain Processor
+
     This program demonstrates a "zero-latency" style bypass with a smooth
     crossfade between dry and wet audio. It reads a 16-bit PCM mono WAV
     file (input.wav), copies its 44-byte header to a new file

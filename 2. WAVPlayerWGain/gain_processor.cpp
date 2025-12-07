@@ -1,4 +1,6 @@
 /*
+    Project 2: Gain Processor
+    
     This program demonstrates how to read an existing 16-bit PCM WAV file, process its audio 
     sample-by-sample, and write the modified samples into a new output WAV file. Instead of 
     using audio libraries or abstractions, this code directly reads the 44-byte WAV header, 

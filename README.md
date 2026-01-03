@@ -21,6 +21,14 @@ Topics include:
 
 New micro-projects will be added regularly as GhostWire Audio grows.
 
+Current set:
+
+1. **Hello Sine** — generate a 440 Hz tone from scratch and write a PCM WAV.
+2. **WAV Player with Gain** — load and scale an audio clip.
+3. **Bypass Switch** — simple wet/dry routing.
+4. **Simple Delay (Array Indexing)** — short delay line with manual indexing.
+5. **Waveform Video** — read a WAV file and render the scrolling waveform to an uncompressed AVI video.
+
 ---
 
 ## How to Run a Project

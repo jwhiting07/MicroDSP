@@ -1,4 +1,4 @@
-# GhostWire Audio: Road to DSP – MicroDSP Projects
+# GhostWire Audio: MicroDSP Projects
 
 A collection of tiny, beginner-friendly DSP projects created as part of my social media series on learning digital audio programming. Each project is intentionally small, focused on one concept, and written with **extensive comments** so beginners can understand the code step by step. Over time, the projects will get progressively more complex as the series goes on.
 

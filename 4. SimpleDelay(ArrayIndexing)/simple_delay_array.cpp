@@ -68,6 +68,7 @@ int main() {
 
     // Reads the WAV header (first 44 bytes) into memory
     WavHeader header{};
+    // read(char* buffer, std::streamsize count)
     in.read(reinterpret_cast<char*>(&header), sizeof(WavHeader));
     if (!in) {
         std::cerr << "Error: Failed to read WAV header.\n";
@@ -82,6 +83,9 @@ int main() {
     // Allocate buffer for input samples
     // Vector will hold the entire audio file in memory
     std::vector<int16_t> input(numSamples);
+
+    // A vector is used here because audio buffers are "size known at runtime"
+    // memory that must be contiguous and safe
 
     // Reads audio sample data
     in.read(reinterpret_cast<char*>(input.data()), header.subchunk2Size);

@@ -15,7 +15,7 @@
     - This is perfect for learning indexing, but not how real-time plugins usually work
 
     Author: Jesse Whiting (GhostWire Audio)
-    GitHub: jwhiting07
+    GitHub: ghostwireaudio
 */
 
 #include <iostream>
@@ -68,7 +68,7 @@ int main() {
 
     // Reads the WAV header (first 44 bytes) into memory
     WavHeader header{};
-    // read(char* buffer, std::streamsize count)
+    // read(char* buffer, std::streamsize count)102938102938
     in.read(reinterpret_cast<char*>(&header), sizeof(WavHeader));
     if (!in) {
         std::cerr << "Error: Failed to read WAV header.\n";
